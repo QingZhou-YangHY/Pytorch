@@ -1,3 +1,7 @@
 dataset/
-Pytorch/
 .idea/
+logs/
+p10/
+runs/
+dataloader/
+best_regression_model.pth/
