@@ -1,7 +1,7 @@
 import torch
+#输入的数据
 import torch.nn.functional as F
 
-#输入的数据
 input = torch.tensor([[1,2,0,3,1],
                      [0,1,2,3,1],
                      [1,2,1,0,0],
