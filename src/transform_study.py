@@ -10,12 +10,12 @@ from torchvision import transforms
 
 #绝对路径 D:\Learn_Pytorch\dataset\train\people\OIP-C.jpg
 #相对路径 dataset/train/people/OIP-C.jpg
-img_path = "dataset/train/people/OIP-C.jpg"
+img_path = "../dataset/train/people/OIP-C.jpg"
 img_path_abs = "D:\Learn_Pytorch\dataset\train\people\OIP-C.jpg"
 #alt+enter可以直接导入你所需要的包
 img = Image.open(img_path)
 
-writer = SummaryWriter("logs")
+writer = SummaryWriter("../logs")
 
 #创建了ToTensor的对象
 tensor_trans = transforms.ToTensor()

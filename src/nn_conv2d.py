@@ -22,7 +22,7 @@ class HY(nn.Module):
 
 hy = HY()
 
-writer = SummaryWriter("../logs")
+writer = SummaryWriter("../../logs")
 
 step = 0
 

@@ -2,7 +2,7 @@ from PIL import Image
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
 
-writer = SummaryWriter("logs")
+writer = SummaryWriter("../logs")
 img = Image.open("D:\\Learn_Pytorch\\dataset\\train\\people\\OIP-C.jpg")
 print(img)
 

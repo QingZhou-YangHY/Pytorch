@@ -14,7 +14,7 @@ img,target = test_data[0]
 print(img.shape)
 print(target)
 
-writer = SummaryWriter("dataloader")
+writer = SummaryWriter("../dataloader")
 
 #对数据进行重新抓取
 for epoch in range(2):
