@@ -1,4 +1,10 @@
 ../dataset/
+../data/
+../dataloader/
+../runs/
+../p10/
+../logs/
+../logs_maxpool/
 .idea/
 logs/
 p10/
